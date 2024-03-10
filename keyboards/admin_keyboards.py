@@ -7,7 +7,8 @@ kb_admin = ReplyKeyboardMarkup(
             KeyboardButton(text='ELD News')
         ],
         [
-            KeyboardButton(text='Insert Updates')
+            KeyboardButton(text='Insert Updates'),
+            KeyboardButton(text='Log out'),
         ],
     ],
     resize_keyboard=True,
